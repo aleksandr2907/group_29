@@ -1,0 +1,43 @@
+HW_1. The first part
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я - pwd
+2) Создать папку- mkdir day1
+3) Зайти в папку- cd day1
+4) Создать 3 папки - mkdir day2 day3 day4
+5) Зайти в любую папку - cd day2
+6) Создать 5 файлов (3 txt, 2 json) - touch number.txt number2.txt number3.txt    word1.json word2.json 
+7) Создать 3 папки - mkdir day2 day3 day4
+8. Вывести список содержимого папки - ls -la
+9)  Открыть любой txt файл - cat number2.txt
+10)  написать туда что-нибудь, любой текст -   cat >> number2.txt
+5555
+4444
+333
+11)  сохранить и выйти - ctrl+c
+12) Выйти из папки на уровень выше - cd ../
+13) переместить любые 2 файла, которые вы создали, в любую другую   папку- mv day2/number3.txt day3/number3.txt
+       	                    mv day2/number.txt day4/number.txt
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку - cp day3/number3.txt day2/number3.txt
+      		     cp day3/word1.json day2//word1.json
+
+15) Найти файл по имени - find ./ -name "number.txt"
+16) просмотреть содержимое в реальном времени  - grep us number.txt
+               user1
+               user2
+               user3
+               user4
+17) вывести несколько первых строк из текстового файла - head -2 number.txt
+user1
+user2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+18) вывести несколько последних строк из текстового файла - tail -2 number.txt
+user3
+user4                                                                                                                                                                                                                                                                                                                                                                           19) просмотреть содержимое длинного файла (команда less) изучите как она работает - less number.txt
+20) вывести дату и время - date
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request -
+  
+curl http://162.55.220.72:5005/terminal-hw-request
